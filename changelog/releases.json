@@ -1,0 +1,16 @@
+[
+  {
+    "version": "0.1.0",
+    "build": 4,
+    "date": "2026-11-13",
+    "stage": "preview",
+    "notes": {
+      "en": [
+        "The Android preview is available from the PaceTale website for Android 7.0 and newer. Sign in with an invitation."
+      ],
+      "ru": [
+        "Тестовую версию PaceTale можно скачать с сайта на устройства с Android 7.0 и новее. Для входа нужно приглашение."
+      ]
+    }
+  }
+]

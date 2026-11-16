@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Download PaceTale for Android</title>
+    <link rel="icon" href="../assets/pacetale-mark.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="../style.css" />
+    <script type="module" src="release.js"></script>
+  </head>
+  <body>
+    <header class="header wrap">
+      <a class="logo" href="../index.html">
+        <img
+          class="logo-mark"
+          src="../assets/pacetale-mark.svg"
+          alt=""
+          width="30"
+          height="30"
+        />
+        PaceTale
+      </a>
+      <nav aria-label="Language">
+        <a class="language" href="ru.html" lang="ru" hreflang="ru">Русский</a>
+      </nav>
+    </header>
+    <main class="download-page wrap">
+      <h1>Download PaceTale for Android</h1>
+      <p class="lead">
+        Install PaceTale on your Android phone. You’ll need an invitation to
+        sign in.
+      </p>
+      <section class="download-release" aria-label="APK">
+        <p class="download-status" role="status">
+          The APK is currently unavailable. Check back here for the next build.
+        </p>
+        <div class="download-ready" hidden>
+          <a class="button download-button" referrerpolicy="no-referrer"
+            >Download APK</a
+          >
+          <dl class="download-meta">
+            <div hidden data-build-row>
+              <dt>Build</dt>
+              <dd data-release="build"></dd>
+            </div>
+            <div>
+              <dt>Version</dt>
+              <dd data-release="version"></dd>
+            </div>
+            <div>
+              <dt>File size</dt>
+              <dd data-release="size"></dd>
+            </div>
+          </dl>
+          <details class="download-checksum">
+            <summary>SHA-256 checksum</summary>
+            <code data-release="sha256"></code>
+          </details>
+        </div>
+      </section>
+      <p class="download-history">
+        <a data-release-history href="../changelog/">Release history</a>
+      </p>
+      <section class="download-install" hidden>
+        <h2>Install on Android</h2>
+        <p>
+          Open the downloaded APK and follow the Android prompts. If asked,
+          allow your browser to install apps.
+        </p>
+      </section>
+    </main>
+    <footer class="wrap footer registration-footer">
+      <nav class="footer-links" aria-label="Useful links">
+        <a href="../register.html">Invitation help</a>
+        <a href="../privacy/index.html">Privacy policy</a>
+        <a href="../terms/index.html">Terms of use</a>
+      </nav>
+    </footer>
+  </body>
+</html>

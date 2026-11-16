@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44">
+  <g fill="none" stroke-width="2" opacity=".65">
+    <circle cx="22" cy="22" r="21" pathLength="360" stroke="#285a87" stroke-dasharray="180 180" transform="rotate(45 22 22)"/>
+    <circle cx="22" cy="22" r="21" pathLength="360" stroke="#d6a74e" stroke-dasharray="90 270" transform="rotate(225 22 22)"/>
+  </g>
+  <g fill="none" stroke-width="2" opacity=".65" transform="rotate(50 22 22)">
+    <circle cx="22" cy="22" r="15" pathLength="360" stroke="#285a87" stroke-dasharray="180 180" transform="rotate(45 22 22)"/>
+    <circle cx="22" cy="22" r="15" pathLength="360" stroke="#d6a74e" stroke-dasharray="90 270" transform="rotate(225 22 22)"/>
+  </g>
+  <g fill="none" stroke-width="2" opacity=".65" transform="rotate(100 22 22)">
+    <circle cx="22" cy="22" r="9" pathLength="360" stroke="#285a87" stroke-dasharray="180 180" transform="rotate(45 22 22)"/>
+    <circle cx="22" cy="22" r="9" pathLength="360" stroke="#d6a74e" stroke-dasharray="90 270" transform="rotate(225 22 22)"/>
+  </g>
+</svg>
